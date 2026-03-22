@@ -1,6 +1,6 @@
 # Map-to-Curve ZK Protocol PoC
 
-This project is a Proof of Concept implementing the constraint-friendly map-to-elliptic-curve-group relations described in the paper "Constraint-Friendly Map-to-Elliptic-Curve-Group Relations and Their Applications" (Groth et al.). The core idea is to replace expensive hash-to-group functions (like SHA256 or Poseidon) in zero-knowledge proof systems with an increment-and-check method combined with a quadratic residue check. The key result is monumental: mapping a field element and performing an elliptic curve point addition on a Short Weierstrass curve (Grumpkin) requires exactly **16 ACIR constraints**—a ~45x reduction over Poseidon (750) and a massive reduction over standard SHA256 configurations.
+This project is a Proof of Concept implementing the constraint-friendly map-to-elliptic-curve-group relations described in the paper "Constraint-Friendly Map-to-Elliptic-Curve-Group Relations and Their Applications" (Groth et al.). The core idea is to replace expensive hash-to-group functions (like SHA256 or Poseidon) in zero-knowledge proof systems with an increment-and-check method combined with a quadratic residue check. The key result is monumental: mapping a field element and performing an elliptic curve point addition on a Short Weierstrass curve (Grumpkin) requires exactly **16 ACIR constraints**, a ~45x reduction over Poseidon (750) and a massive reduction over standard SHA256 configurations.
 
 ## Prerequisites
 - Node.js (for the frontend dashboard)
