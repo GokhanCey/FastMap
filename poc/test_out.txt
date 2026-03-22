@@ -1,4 +1,0 @@
-[map_to_curve_noir] Running 2 test functions
-[map_to_curve_noir] Testing test_valid_map_to_curve_grumpkin... [0m[32mok
-[0m[map_to_curve_noir] Testing test_invalid_y_fails... [0m[32mok
-[0m[map_to_curve_noir] [0m[32m2 tests passed[0m
