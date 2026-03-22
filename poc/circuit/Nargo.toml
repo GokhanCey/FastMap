@@ -1,0 +1,7 @@
+[package]
+name = "shape_rotator_circuit"
+type = "bin"
+authors = ["Shape Rotator"]
+compiler_version = ">=0.37.0"
+
+[dependencies]

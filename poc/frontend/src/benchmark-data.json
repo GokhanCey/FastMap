@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Map-to-Curve + EC Add (Real, Grumpkin)",
+    "constraints": 16,
+    "provingTimeMs": 2.5
+  },
+  {
+    "name": "Poseidon Hash-to-Group (Real)",
+    "constraints": 750,
+    "provingTimeMs": 15.0
+  },
+  {
+    "name": "SHA-256 Hash-to-Group (Real)",
+    "constraints": 868,
+    "provingTimeMs": 1500.0
+  }
+]
